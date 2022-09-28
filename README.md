@@ -5,13 +5,13 @@
 + Measurement range: 0 ÷ 3000 rpm (revolution per minutes)
 + Resolution: 0.2 rpm
 
-**generate data of speed sensors**
+**Generate data of speed sensors**
 - Write a program which allows user to provide the number of sensors (corresponding to number of DC 
 motors which need to be monitored), the sampling time and measurement duration (simulation interval) and 
 the starting time. These inputs should be provided by using command-line as below:
 C:\\speed_sim –n [num_sensors] –st [sampling] –si [interval]
 
-**analyze data**
+**Analyze data**
 - Write another program to process the data in “speed_data_TIMESTAMP.csv” with the content followed 
 the one generated in task 1. The program should be run by using a command-line as below:
 C:\\speed_process [data_filename.csv]
